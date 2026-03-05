@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Olá mundo (CORES)</title>
+    <!-- Aqui o CSS é escrito dentro da tag style no head do arquivo (Forma 2) -->
+    <style>
+    .interno {
+    color: rgb(4, 0, 255);
+    font-size: 20px;
+    }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Nesta forma o CSS é inserido dentro da tag HTML usando o atributo style (Forma 1) -->
+    <p style="color: rgb(255, 0, 0); font-size: 20px;">
+    Olá Mundo! (Forma 1)
+    </p>
+    <p class="interno">Olá Mundo! (Forma 2)</p>
+    <!-- No externo o CSS está insrido em um arquivo separado -->
+    <p class="externo">Olá Mundo! (Forma 3)</p>
+</body>
+</html>
